@@ -41,6 +41,8 @@ export default {
 p {
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 550px;
+    margin: 0 auto;
 }
 .v-btn {
     margin-bottom: 15px;
