@@ -18,7 +18,6 @@
 
     <v-navigation-drawer 
       dark 
-      absolute
       v-model="drawer" 
       style="
         position: fixed; 
