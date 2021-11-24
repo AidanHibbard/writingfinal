@@ -35,6 +35,8 @@ export default {
 article {
     padding-left: 10px;
     margin-top: 25px;
+    max-width: 550px;
+    margin: 0 auto;
 }
 h1 {
     text-align: center;
