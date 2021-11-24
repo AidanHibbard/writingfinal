@@ -53,5 +53,20 @@ export default {
 </script>
 
 <style scoped>
-
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+} 
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+} 
 </style>

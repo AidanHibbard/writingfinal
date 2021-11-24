@@ -73,8 +73,11 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extend(config, ctx) {}
-},
-server: {
+  },
+  server: {
     host: "0.0.0.0"
-}
+  },
+  router: {
+    prefetchLinks: false
+  }
 }

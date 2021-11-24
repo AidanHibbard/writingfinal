@@ -25,7 +25,6 @@
         top: 0; 
         left: 0; 
         overflow-y: scroll;
-        background-color: transparent;
         ">
       <v-list
         nav
@@ -35,9 +34,11 @@
           v-model="group"
           active-class="text--accent-4"
         >
-          <v-list-item>
-            <v-list-item-title>Home</v-list-item-title>
-          </v-list-item>
+          <nuxt-link to="/">
+            <v-list-item>
+                <v-list-item-title>Home</v-list-item-title>
+            </v-list-item>
+          </nuxt-link>
 
           <ArticlesContainer />
 
@@ -72,4 +73,20 @@ export default {
   padding: 0;
   max-width: 100%;
 }
+a:link {
+    color: white;
+    text-decoration: none;
+}
+a:visited {
+    color: white;
+    text-decoration: none;
+} 
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+a:active {
+    color: white;
+    text-decoration: none;
+} 
 </style>
