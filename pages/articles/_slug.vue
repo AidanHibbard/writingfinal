@@ -19,7 +19,6 @@ export default {
         try {
             const [article] = await $content(`articles/${params.slug}`)
                 .fetch()
-            console.log(article)
             return { article }
         } catch (err) {
             error({
