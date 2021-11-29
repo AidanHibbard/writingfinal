@@ -1,6 +1,6 @@
 ---
     title: Unit Writing Task
-    a: unit-writing
+    a: unit-writing-task
 ---
 
 - Write five paragraphs stating your beliefs on whether or not we should continue to fund seti, cite sources from the unit confirming your thesis. In one of your body paragraphs consider the other sides argument and provide two sentences countering the view.

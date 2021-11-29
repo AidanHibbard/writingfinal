@@ -22,7 +22,9 @@
                 v-for="(resource, index) in resourceTitles"
                 :key="index"
             >
-                <v-list-item-title>{{resource.title}}</v-list-item-title>
+                <nuxt-link :to="{ name: 'resources-slug', params: { slug: resource.a } }">
+                    <v-list-item-title>{{resource.title}}</v-list-item-title>
+                </nuxt-link>
             </v-list-item>
         </div>
     </div>
