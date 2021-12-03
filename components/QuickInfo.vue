@@ -1,16 +1,5 @@
 <template>
     <div id="QuickInfoContainer">
-        <center>
-            <v-btn
-                rounded
-                color="primary"
-                dark
-                >
-                <nuxt-link :to="{ name: 'articles-slug', params: { slug: 'government-cut-nasa-seti-funding' } }">
-                    Get Started
-                </nuxt-link>
-            </v-btn>
-        </center>
         <p>
             200 Billion Galaxies found, 
             four thousand earth like planets, 
@@ -38,29 +27,13 @@ export default {
 </script>
 
 <style scoped>
+#QuickInfoContainer {
+    margin-top: 20px;
+}
 p {
     padding-left: 15px;
     padding-right: 15px;
     max-width: 550px;
     margin: 0 auto;
 }
-.v-btn {
-    margin-bottom: 15px;
-}
-a:link {
-    color: white;
-    text-decoration: none;
-}
-a:visited {
-    color: white;
-    text-decoration: none;
-} 
-a:hover {
-    color: white;
-    text-decoration: none;
-}
-a:active {
-    color: white;
-    text-decoration: none;
-} 
 </style>
