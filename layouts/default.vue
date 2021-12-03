@@ -17,14 +17,10 @@
     </v-app-bar>
 
     <v-navigation-drawer 
-      dark 
-      v-model="drawer" 
-      style="
-        position: fixed; 
-        top: 0; 
-        left: 0; 
-        overflow-y: scroll;
-        ">
+      v-model="drawer"
+      absolute
+      temporary
+    >
       <v-list
         nav
         dense
