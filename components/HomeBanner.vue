@@ -19,6 +19,11 @@
                     </nuxt-link>
                 </v-btn>
             </center>
+            <p>
+                Orion Nebula
+                <br />
+                Image by Aidan Hibbard
+            </p>
         </div>
     </v-img>
 </template>
@@ -61,4 +66,13 @@ a:active {
     color: white;
     text-decoration: none;
 } 
+p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 12px;
+}
 </style>
